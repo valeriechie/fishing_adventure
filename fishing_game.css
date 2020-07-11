@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(0, 247, 255);
+}
+
+#title {
+  font-size: 80px;
+  font-family: cursive;
+  color: rgb(255, 0, 183);
+  border: 3px solid red;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#aquarium {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 13px ridge red;
+  margin-bottom: 30px;
+}
+
+#me_and_aquarium img, #raygan img, #volcano img, #isle_island img {
+  float: left;
+  border: 13px ridge red;
+  margin-left: 3px;
+  margin-bottom: 10px;
+}
+
+#me_and_aquarium, #raygan, #volcano, #isle_island {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(136, 0, 255);
+  font-style: italic;
+}
+
+.details {
+  font-size: 30px;
+}
+
+a:hover {
+  background-color: rgb(214, 135, 138);
+  color: rgb(99, 235, 144);
+}
